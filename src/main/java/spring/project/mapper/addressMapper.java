@@ -3,12 +3,12 @@ package spring.project.mapper;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import spring.project.domain.addres;
+import spring.project.domain.address;
 
 @Mapper
-public interface addresMapper {
+public interface addressMapper {
 
-	@Select("select * from addres where addres_id = #{id}")
-	addres findById(@Param("id") String id);
+	@Select("select * from address where address_id = #{id}")
+	address findById(@Param("id") String id);
 
 }

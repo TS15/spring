@@ -1,13 +1,13 @@
 package spring.project.domain;
 
 
-public class addres  {
+public class address  {
 
-	private Long addres_id;
+	private Long address_id;
 
-	private String addres;
+	private String address;
 	
-	private String addres2;
+	private String address2;
 	
 	private String district;
 	
@@ -20,29 +20,29 @@ public class addres  {
 	private String location;
 
 	private String last_update;
-// Addres id
-	public Long getAddresId() {
-		return this.addres_id;
+// Address id
+	public Long getAddressId() {
+		return this.address_id;
 	}
 
 	public void setId(Long id) {
-		this.addres_id = id;
+		this.address_id = id;
 	}
-// Addres
-	public String getAddres() {
-		return this.addres;
+// Address
+	public String getAddress() {
+		return this.address;
 	}
 	
-	public void setAddres(String addres) {
-		this.addres = addres;
+	public void setAddress(String address) {
+		this.address = address;
 	}
-// Addres 2
-	public String getAddres2() {
-		return this.addres2;
+// Address 2
+	public String getAddress2() {
+		return this.address2;
 	}
 		
-	public void setAddres2(String addres2) {
-		this.addres2 = addres2;
+	public void setAddress2(String address2) {
+		this.address2 = address2;
 	}
 // District 
 		public String getDistrict() {

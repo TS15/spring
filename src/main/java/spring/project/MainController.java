@@ -13,7 +13,7 @@ public class MainController {
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
     private final actorMapper actormapper;
-   // private final addresMapper addresmapper;
+   // private final addresMapper addressmapper;
     @RequestMapping("/greeting")
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
         return new Greeting(counter.incrementAndGet(),
@@ -27,12 +27,12 @@ public class MainController {
     public MainController(actorMapper actormapper) {
     	this.actormapper = actormapper;
     }
- /*   @RequestMapping("/addres")
-    public addres addres(@RequestParam(value="id", defaultValue = "1") String id) {
+ /*   @RequestMapping("/address")
+    public address address(@RequestParam(value="id", defaultValue = "1") String id) {
     	return this.addresmapper.findById(id);
     }
-    public MainController(addresMapper addresmapper) {
-    	this.addresmapper = addresmapper;
+    public MainController(addresMapper addressmapper) {
+    	this.addresmapper = addressmapper;
     }
     */
 }	
