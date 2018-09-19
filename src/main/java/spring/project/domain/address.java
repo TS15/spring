@@ -11,13 +11,9 @@ public class address  {
 	
 	private String district;
 	
-	private Long city_id;
-	
 	private String postal_code;
 	
 	private String phone;
-	
-	private String location;
 
 	private String last_update;
 // Address id
@@ -52,14 +48,7 @@ public class address  {
 		public void setDistrict(String district) {
 			this.district = district;
 		}
-// City id
-		public Long getCity_id() {
-			return this.city_id;
-		}
-		
-		public void setCity_id(Long city_id) {
-			this.city_id = city_id;
-		}
+
 // Postal code
 		public String getPostal_code() {
 			return this.postal_code;
@@ -76,15 +65,7 @@ public class address  {
 		public void setPhone(String phone) {
 			this.phone = phone;
 		}
-// Location
-		public String getLocation() {
-			return this.location;
-		}
-						
-		public void setLocation(String location) {
-			this.location = location;
-		}
-		
+
 //Last update
 	public String getLast_update() {
 		return this.last_update;
