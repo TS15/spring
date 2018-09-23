@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+	<title>Strona domowa</title>
+
+
+	<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/css/superfish.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="/css/prettyPhoto.css" media="screen"/>
+
+	<!--[if lt IE 9]>
+	<script src="../../../html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript" src="/js/hoverIntent.js"></script>
+	<script type="text/javascript" src="/js/superfish.js"></script>
+	<script type="text/javascript" src="/js/jquery.jcarousel.js"></script>
+	<script type="text/javascript" src="/js/jquery.tweet.js"></script>
+	<script type="text/javascript" src="/js/jflickrfeed.js"></script>
+	<script type="text/javascript" src="/js/jquery.masonry.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="/js/slides.min.jquery.js"></script>
+	<script type="text/javascript" src="/js/jquery.quicksand.js"></script>
+	<script type="text/javascript" src="/js/jquery.contact.js"></script>
+	<script type="text/javascript" src="/js/jquery.preloadify.min.js"></script>
+	
+	<script type="text/javascript" src="/js/custom.js"></script>
+
+</head> 
+
+<body> 
+<div id="wrapper">
+	<div id="top">
+		<header id="header">
+			<div class="one-fourth">
+				<div class="logo"><a href="index.html"><img src="/images/logo.png" alt="" /></a></div>
+			</div>
+			
+			<div class="three-fourth column-last">
+				<nav id="navigation">
+					<ul id="mainnav">
+						<li><a class="current" href="index.html">STRONA DOMOWA</a></li>
+						<li><a href="contact.html">KONTAKT</a></li>
+						<li><a href="index_eng.html">JĘZYK ANGIELSKI</a></li>
+					</ul>
+				</nav><!--end navigation-->
+			</div>
+		</header>
+
+		<section class="nivo">
+			<div id="slider-wrapper">
+				<div id="preloader">
+					<img src="images/nivo-preloader.gif" alt=""/>
+				</div>
+				<div id="slider" class="nivoSlider">
+					<img src="images/slide1.jpg" alt="" title="#htmlcaption"/>
+					<img src="images/slide2.jpg" alt="" title="#htmlcaption-2"/>
+					<img src="images/slide3.jpg" alt="" title="#htmlcaption-3"/>
+					<img src="images/slide4.jpg" alt="" />
+					<img src="images/slide5.jpg" alt="" title="#htmlcaption-5"/>
+				</div>
+				<div id="htmlcaption" class="nivo-html-caption">
+					<h1>Zima w Bostonie</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+				<div id="htmlcaption-2" class="nivo-html-caption">
+					<h1>Gdzie czas się zatrzymał</h1>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+				</div>
+				<div id="htmlcaption-3" class="nivo-html-caption">
+					<h1>Z Paryża z wyrazami miłości</h1>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+				</div>
+				<div id="htmlcaption-4" class="nivo-html-caption">
+					<h1>Woda i ziemia</h1>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+				</div>
+				<div id="htmlcaption-5" class="nivo-html-caption">
+					<h1>Zachód słońca nad rzeką</h1>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+				</div>
+
+			</div><!--end slider-wrapper-->
+		</section>
+	</div><!--end top-->
+	
+	<div class="centered-wrapper">	
+	
+		<section class="intro">
+			<h2 class="intro-text"><a href="#"> Zaawansowane metody wytwarzania aplikacji webowych</a> </h2> 
+			<h2 class="intro-text">Projekt zaliczeniowy <h2></h2>
+			<h2 class="intro-text"> Prowadzący: Arkadiusz Popa</h2>
+		</section>
+		<div class="separator"></div>
+		<section class="services">
+		<div class="one-fourth">
+				<img class="service-img" src="images/services/spring.png" alt="" />
+				<h3 class="service">Spring Framework</h3>
+				<p class="clear">Spring Framework – szkielet tworzenia aplikacji (ang. application framework) w języku Java dla platformy Java Platform, Enterprise Edition (aczkolwiek istnieje też wersja dla środowiska .NET). </p>
+			</div><!--end one-fourth-->
+			<div class="one-fourth">
+				<img class="service-img" src="images/services/maven.png" alt="" />
+				<h3 class="service">Maven</h3>
+				<p class="clear">Apache Maven - narzędzie automatyzujące budowę oprogramowania na platformę Java. Poszczególne funkcje Mavena realizowane są poprzez wtyczki, które są automatycznie pobierane przy ich pierwszym wykorzystaniu. </p>
+			</div><!--end one-fourth-->
+			<div class="one-fourth">
+				<img class="service-img" src="images/services/js.png" alt="" />
+				<h3 class="service">JavaScript</h3>
+				<p class="clear">JavaScript (krócej JS) – skryptowy język programowania, stworzony przez firmę Netscape, najczęściej stosowany na stronach internetowych. Twórcą JavaScriptu jest Brendan Eich. </p>
+			</div><!--end one-fourth-->
+			<div class="one-fourth column-last">
+				<img class="service-img" src="images/services/html.png" alt="" />
+				<h3 class="service">HTML</h3>
+				<p class="clear">HTML pozwala opisać strukturę informacji zawartych wewnątrz strony internetowej, nadając znaczenie poszczególnym fragmentom tekstu – formując hiperłącza, akapity, nagłówki, listy – oraz osadza w tekście dokumentu obiekty plikowe np. multimedia bądź elementy baz danych np. interaktywne formularze danych.</p>
+			</div><!--end one-fourth-->
+		</section>
+		
+		<div class="separator"></div>
+	
+		<section>
+			<ul id="mycarousel">
+				<li>
+					<a><img src="images/portfolio/pic1.jpg" alt="" /></a>
+					<span class="caption">Zimowa kraina czarów</span>
+					<a class="lightbox" href="images/gallery/pic14.jpg" title="Winter Wonderland" rel="prettyPhoto">item in lightbox</a>
+				</li>
+				
+				<li>
+					<a><img src="images/portfolio/pic2.jpg" alt="" /></a>
+					<span class="caption">Piękno czerni i bieli</span>
+					<a class="lightbox" href="images/gallery/pic13.jpg" title="The Beauty of Black and White" rel="prettyPhoto">item in lightbox</a>
+				</li>
+				
+				<li>
+					<a><img src="images/portfolio/pic4.jpg" alt="" /></a>
+					<span class="caption">Więzienie Wolności</span>
+					<a class="lightbox" href="images/gallery/pic11.jpg" title="Liberty Prison" rel="prettyPhoto">item in lightbox</a>
+				</li>
+				
+				<li>
+					<a><img src="images/portfolio/pic9.jpg" alt="" /></a>
+					<span class="caption">Gdy czas się zatrzymał</span>
+					<a class="lightbox" href="images/gallery/pic6.jpg" title="When Time Stood Still" rel="prettyPhoto">item in lightbox</a>
+				</li>	
+			</ul>	
+		</section>
+		
+	</div><!--end centered-wrapper-->
+	
+	<div class="centered-wrapper">
+	
+		<footer id="footer">
+			<div class="double-separator"></div>
+			<div id="topfooter">
+				<div class="one-fourth">
+					<h3>Kilka słów na temat</h3>
+					<p>Spring Boot 2 branches. <br>
+					Mybatis. <br>
+					 Flyway. <br>
+					 5 Tables. <br>
+					 Front. <br>
+					 Jquery. <br>
+					 </p>
+				</div><!--end one-fourth-->
+					<h3>Kontakt</h3>
+					<p>Adres:
+					 Łódź,  <br />
+					ul. Matejki 21/23, Polska 90-231</p>
+					<p>Numer komurkowy: +48516189366 </p>
+					<p>E-mail: <a href="mailto:">savko_t@mail.ru</a><br />
+				</div><!--end one-fourth-->
+				
+			
+		
+			<div id="bottomfooter">			
+				<div class="one-half">
+					<p>Copyright &copy; 2018 - Projekt zaliczeniowy | Tatsiana Sauko | Wszelkie prawa zastrzeżone</p>
+				</div><!--end one-half-->
+			</div><!--end bottomfooter-->	
+			</div><!--end topfooter-->	
+		</footer><!--end footer-->	
+		
+	</div><!--end centered-wrapper-->
+</div>
+</body> 
+</html>
